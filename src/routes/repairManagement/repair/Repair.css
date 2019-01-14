@@ -1,0 +1,29 @@
+.prints{
+  position: absolute!important;
+  top: 24px;
+  right: 10px;
+}
+.dashed{
+  border-top: 1px dashed #999;
+  padding: 20px 0 10px;
+}
+.appraise{
+  background: #43cfbc;
+  color: #fff;
+  display: inline-block;
+  margin-right:4px;
+  padding:0 6px;
+  border-radius: 4px;
+}
+.star{
+  color:#f26f8d;
+}
+.starN{
+  color:#ddd;
+}
+.img{
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  margin-right:10px;
+}

@@ -1,0 +1,65 @@
+#components-layout-demo-side .logo {
+    height: 32px;
+    background: #333;
+    border-radius: 6px;
+    margin: 16px;
+}
+#components-layout-demo-side .ant-layout-sider-collapsed .anticon {
+    font-size: 16px;
+    margin-left: 8px;
+}
+#components-layout-demo-side .ant-layout-sider-collapsed .nav-text {
+    display: none;
+}
+
+#components-layout-demo-side .ant-layout-sider-collapsed .ant-menu-submenu-vertical > .ant-menu-submenu-title:after {
+    display: none;
+}
+.ant-layout-header{
+    background-color: #fff !important;
+    border-bottom: 1px solid #e7e7e7;
+}
+.top{
+    background-color: #4696e7;
+    height: 80px;
+}
+.content {
+    padding: 0 30px;
+    background-color: #f2f4f5;
+    min-height: 500px;
+}
+.fontLogo{
+  font-size: 24px;
+  color: #6070bf;
+}
+.headerBg{
+  background: #fff;
+}
+.userInfo{
+  float: right;
+  margin-left: 10px;
+  text-align: right;
+}
+footer{
+  height:6%;
+  text-align: center;
+  color:#999;
+  margin-top:15px;
+}
+footer p{
+	padding:6px 0;
+}
+footer p span{
+	margin:0 10px;
+}
+.versionButton{
+    float: right;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.page-content .ant-table .ant-table-body table thead th {
+  padding: 16px 16px;
+}
+.page-content .ant-table .ant-table-body table tbody td {
+  padding: 16px 16px;
+}

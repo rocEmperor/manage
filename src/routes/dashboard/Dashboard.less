@@ -1,0 +1,208 @@
+.dashboard{
+  background: url("../../../static/images/dashboardBg.png") no-repeat;
+  background-size: cover;
+  // margin: 0 -30px;
+  height: 100%;
+  padding: 0 12px;
+  color: #fff;
+  .charts{
+    color: #6b85bb;
+  }
+  .ant-progress-circle-trail{
+    stroke:#233960;
+  }
+  .ant-progress-circle.ant-progress-status-exception .ant-progress-text,.ant-progress-circle .ant-progress-text{
+    color: #aec8fe;
+  }
+  h2{
+    line-height: 60px;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 0;
+    background: url("../../../static/images/top.png") no-repeat;
+    background-size: 100% 100%;
+  }
+  .owner{
+    width: 100%;
+    background: url("../../../static/images/dashboardbg1.png") no-repeat;
+    background-size: cover;
+    height: 290px;
+    margin-bottom: 10px;
+    overflow: hidden;
+  }
+  .title p{
+    padding: 11px 11px 8px 11px;
+    font-size: 18px;
+    text-align: left;
+    color:#6b85bb;
+  }
+  .repair{
+    width: 100%;
+    background: url("../../../static/images/dashboardbg3.png") no-repeat;
+    background-size: 100% 100%;
+    height: 270px;
+  }
+  .main p{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color:#6b85bb;
+  }
+  .main .title p{
+    text-align: left;
+    margin-bottom: 0;
+    color:#6b85bb;
+  }
+  .main .dashboard-num{
+    text-align: center;
+  }
+  .dashboard-num span{
+    display: inline-block;
+    background: linear-gradient(to bottom, #274a85, #10275f);
+    width: 60px;
+    line-height: 85px;
+    font-size: 35px;
+    margin: 0 5px;
+  }
+  .press{
+    text-align: center;
+  }
+  .press span{
+    color: #fff;
+  }
+  .health{
+    width: 100%;
+    background: url("../../../static/images/dashboardbg2.png") no-repeat;
+    background-size: 100% 100%;
+    height: 270px;
+    margin-top: 30px;
+    .ant-progress-inner{
+      background-color: #233960;
+    }
+  }
+  .health span{
+    color: #5d71a2;
+  }
+  .health>div{
+    padding: 0 15px;
+    color: #5d71a2;
+  }
+  .health .ant-progress-line{
+    width: 56%;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    color: #5d71a2;
+  }
+  .health .ant-progress-text{
+    width: 3em;
+  }
+  .health .ant-progress-show-info .ant-progress-outer{
+    padding-right: calc(3em + 8px);
+    margin-right: calc(-3em - 8px);
+  }
+  .health .health-name{
+    width: 54px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .health ul{
+    clear: both;
+    overflow: hidden;
+    margin-top: -30px;
+    padding: 0;
+  }
+  .health li{
+    width: 50%;
+    padding: 0;
+    padding-left: 4%;
+    float: left;
+    list-style: none;
+    color: #5d71a2;
+  }
+  li span{
+    display: inline-block;
+    height: 6px;
+    height: 8px;
+    width: 8px;
+    background: #0da5ff;
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+  
+  li.li0 span{
+    background: #0da5ff;
+  }
+  li.li1 span{
+    background:#ff9035;
+  }
+  li.li2 span{
+    background:#6ed66d;
+  }
+  li.li3 span{
+    background:#17caf2;
+  }
+  li.li4 span{
+    background:#9b6ff2;
+  }
+  li.li5 span{
+    background:#33b561;
+  }
+  li.li6 span{
+    background:#ef515b;
+  }
+  li.li7 span{
+    background:#f7dc3e;
+  }
+  li.li8 span{
+    background:#939cb2;
+  }
+  .owner.title p{
+    margin-bottom: 0;
+  }
+  .owner .list p:nth-child(even){
+    background: #14315f;
+  }
+  .owner .list p{
+    font-size: 12px;
+    padding: 3px 5px;
+    margin-bottom: 0;
+    position: relative;
+    padding-left: 10px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    width: 100%;
+    cursor: pointer;
+    i{
+      position: absolute;
+      left: 5px;
+      top: 5px;
+      display: inline-block;
+      border-left: 3px solid #0da5ff;
+      height: 12px;
+    }
+    i.parki{
+      border-left: 3px solid #0da5ff
+    }
+    i.personi{
+      border-left: 3px solid #6ed66d
+    }
+    i.repairi{
+      border-left: 3px solid #f7dc3e
+    }
+    i.complaini{
+      border-left: 3px solid #fa5050
+    }
+    .time{
+      display: inline-block;
+      width: 30%;
+      text-align: center;
+    }
+    .info{
+      display: inline-block;
+      width: 26%;
+    }
+  }
+}

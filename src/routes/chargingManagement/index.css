@@ -1,0 +1,195 @@
+.print {
+  margin: 20px
+}
+
+.print .ant-card-head-title {
+  text-align: left;
+  color: #666 !important;
+}
+
+.print .footer {
+  position: relative;
+  margin-top: 40px;
+  font-size: 14px;
+  border-top: 1px solid #e9e9e9;
+}
+
+.print .ant-card-head {
+  border-bottom: none;
+}
+
+.print .ant-card-body{
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+}
+
+.print .footer:after {
+  clear: both;
+  content: " "
+}
+
+.print .footer a {
+  color: #666;
+  float: left;
+  width: 50%;
+  text-align: center;
+  padding: 8px;
+}
+.fixed_water{
+  width:414px;
+  height:736px;
+  border:1px solid #ddd;
+  margin:0 auto;
+  overflow-y:auto;
+}
+.fixed_water  p{
+  padding:0 10px;
+  overflow: hidden;
+  margin:10px 0;
+}
+.fixed_water .logo{
+  display: inline-block;
+  height:48px;
+  margin:10px 10px 0 0;
+}
+.fixed_water .code_image{
+  width:80%;
+  margin:0 auto;
+}
+.fixed_water label{
+  float:left;
+}
+.fixed_water p span{
+  float:right;
+}
+.fixed_water p .mt20{
+  margin-top: 20px;
+}
+.fixed_water .adsImg{
+  width:100%;
+}
+.bill_nums {
+  overflow: hidden;
+}
+.bill_nums dl{
+  float: left;
+  text-align: center;
+  width: 20%;
+  margin-bottom: 5px;
+  border-right: 1px solid #ccc;
+  color: #666;
+}
+.bill_nums .last{
+  border-right: none;
+}
+.bill_nums dl dt{
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+.page-content-detail .section .ant-form-item {
+  margin-bottom: 10px;
+}
+.dt_cls {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+.dl_cls {
+  float: left;
+  text-align: center;
+  width: 25%;
+  margin-bottom: 5px;
+  border-right: 1px solid #ccc;
+  color: #666;
+}
+.last {
+  border-right: 0;
+}
+.selectBox .ant-select {
+  width: 80%
+}
+.selectBox .ant-input {
+  width: 80%
+}
+.btn-group-right {
+  height: 20px;
+}
+.btn-group-right-btn {
+  float: right;
+  margin-right: 15px;
+}
+.section_coll .ant-card-body {
+  padding: 24px;
+}
+.section_table .ant-form-item {
+  margin-bottom: 0;
+}
+.section_table .ant-card-body {
+  padding: 0;
+}
+.enrty_card .ant-card-body {
+  padding: 24px;
+}
+.y-m-b-20{
+  margin-bottom: 20px;
+}
+.text-center{
+  text-align: center;
+}
+.y-m-l-10{
+  margin-left: 10px;
+}
+.y-selector{
+  margin-bottom: 40px;
+}
+.y-selector .y-hr{
+  margin: 10px 10px 10px 0;
+  border-bottom: 1px solid #e9e9e9
+}
+.generateBill .ant-calendar-picker{
+  width: 100% !important;
+}
+
+.generateBill .y-selectors{
+  min-height: 100px;
+}
+.CashierDesk .til {
+  height: 50px;
+  line-height: 50px;
+  border: 1px solid #E8E8E8;
+  background-color: #fff;
+  padding: 0 32px;
+  border-radius: 6px;
+  border-bottom: 0;
+}
+.CashierDesk .til .left {
+  font-size: 18px;
+  font-weight: 600;
+}
+.CashierDesk .til .right {
+  float: right;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.CashierDesk .table_til {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+}
+.CashierDesk .ant-form-item {
+  margin-bottom: 0;
+}
+.CashierDesk .money_info {
+  font-size: 14px;
+  font-weight: 600;
+  background-color: #E2F6FF;
+  padding: 0px 10px;
+  margin-bottom: 16px;
+}
+.CashierDesk .money_info div{
+  padding: 10px 0;
+}
+
+
+

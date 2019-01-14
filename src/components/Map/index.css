@@ -1,0 +1,6 @@
+.containers{
+  margin-top:16px;
+  height:500px;
+  width:100%;
+}
+.mapCont .ant-modal-content{width: 100%;}

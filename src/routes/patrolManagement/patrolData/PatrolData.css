@@ -1,0 +1,16 @@
+.p_title{
+  margin-right: 20px;
+}
+.p_title a{
+  margin-right: 10px;
+  color: #000;
+}
+.p_title .active {
+  color: #108ee9;
+}
+.charts{
+  width: 100%;
+  min-height: 360px;
+  line-height: 360px;
+  text-align: center;
+}
